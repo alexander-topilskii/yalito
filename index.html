@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -125,7 +123,7 @@
 
           setTimeout(function() {
             window.location.href = fallbackStoreLink;
-          }, 2000); // Ждём 2 секунды перед перенаправлением в магазин
+          }, 1000); // Ждём 2 секунды перед перенаправлением в магазин
 
           // Попытка открытия приложения
           window.location.href = appLink;
@@ -136,7 +134,7 @@
   <body>
     <div id="card">
       <img src="https://firebasestorage.googleapis.com/v0/b/wishlist-3083e.appspot.com/o/web%2Ficon.jpg?alt=media&token=1c34a2c8-86de-4f9c-84d3-ba5b814ca68b" alt="Wishlist Icon">
-      <h1>Wishlist App</h1>
+      <h1>Yalito: Wishlist</h1>
       <p>Your ultimate gift organizer. Keep track of what you want and share your wishes with friends and family.</p>
       <div class="store-links">
         <button class="store-button" onclick="window.open('https://play.google.com/store/apps/details?id=cy.development.software.fancy.wishlist', '_blank')" style="background: url('https://firebasestorage.googleapis.com/v0/b/wishlist-3083e.appspot.com/o/web%2Fgoogle-play-badge.svg?alt=media&token=72e69f3e-7d98-4a6f-a090-92360ddf23a4') no-repeat center/cover;"></button>
