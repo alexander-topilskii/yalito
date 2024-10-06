@@ -138,11 +138,22 @@
     <div id="card">
       <img src="https://firebasestorage.googleapis.com/v0/b/wishlist-3083e.appspot.com/o/web%2Ficon.jpg?alt=media&token=1c34a2c8-86de-4f9c-84d3-ba5b814ca68b" alt="Wishlist Icon">
       <h1>Yalito: Wishlist</h1>
-      <p>Your ultimate gift organizer. Keep track of what you want and share your wishes with friends and family. Ваша лучшая программа для организации подарков. Отслеживайте свои желания и делитесь ими с друзьями и семьей.</p>
+      <p id="description"></p>
       <div class="store-links">
         <button class="store-button" onclick="window.open('https://play.google.com/store/apps/details?id=cy.development.software.fancy.wishlist', '_blank')" style="background: url('https://firebasestorage.googleapis.com/v0/b/wishlist-3083e.appspot.com/o/web%2Fgoogle-play-badge.svg?alt=media&token=72e69f3e-7d98-4a6f-a090-92360ddf23a4') no-repeat center/cover;"></button>
         <button class="store-button" onclick="window.open('https://apps.apple.com/us/app/yalito-wishlist/id6727014821', '_blank')" style="background: url('https://firebasestorage.googleapis.com/v0/b/wishlist-3083e.appspot.com/o/web%2Fapp-store-badge.svg?alt=media&token=0433302e-a5a9-4838-b552-0ea4a9916de3') no-repeat center/cover;"></button>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const userLang = navigator.language || navigator.userLanguage;
+        const descriptionElement = document.getElementById("description");
+        if (userLang.startsWith("ru")) {
+          descriptionElement.textContent = "Ваша лучшая программа для организации подарков. Отслеживайте свои желания и делитесь ими с друзьями и семьей.";
+        } else {
+          descriptionElement.textContent = "Your ultimate gift organizer. Keep track of what you want and share your wishes with friends and family.";
+        }
+      });
+    </script>
   </body>
 </html>
