@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестирование диплинков</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .link-button {
+            display: block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #155e39;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .link-button:hover {
+            background-color: #0c3822;
+        }
+    </style>
+</head>
+<body>
+    <h1>Тестирование диплинков</h1>
+    <a href="https://yalito.me/app/friends/" class="link-button">Открыть Friends (HTTPS)</a>
+    <a href="https://yalito.me/app/settings/" class="link-button">Открыть Settings (HTTPS)</a>
+    <a href="https://yalito.me/app/events/" class="link-button">Открыть Events (HTTPS)</a>
+    <a href="https://yalito.me/app/wish/" class="link-button">Открыть Wish (HTTPS)</a>
+    <a href="https://yalito.me/app/wish/add_wish?wishName=name&wishDescription=description&wishUrl=https%3A%2F%2Fwww.apple.com%2Fmacbook-pro%2F" class="link-button">Открыть Wish с параметрами (HTTPS)</a>
+
+
+    <h2>Тестирование диплинков с пользовательской схемой</h2>
+     <a href="wishlist://yalito.me/app/friends/" class="link-button">Открыть Friends (WISHLIST)</a>
+    <a href="wishlist://yalito.me/app/settings/" class="link-button">Открыть Settings (WISHLIST)</a>
+    <a href="wishlist://yalito.me/app/events/" class="link-button">Открыть Events (WISHLIST)</a>
+    <a href="wishlist://yalito.me/app/wish/" class="link-button">Открыть Wish (WISHLIST)</a>
+    <a href="wishlist://yalito.me/app/wish/add_wish?wishName=name&wishDescription=description&wishUrl=https%3A%2F%2Fwww.apple.com%2Fmacbook-pro%2F" class="link-button">Открыть Wish с параметрами (HTTPS)</a>
+</body>
+</html>
