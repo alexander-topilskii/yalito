@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "cy.development.software.fancy.wishlist",
+      "sha256_cert_fingerprints": [
+        "29:14:AB:23:26:14:5D:94:26:31:C2:23:0C:EC:FF:0B:0C:E8:58:1C:28:02:B5:BB:5F:40:B9:37:6F:C4:40:57",
+        "90:F4:3B:46:9D:AB:D6:2D:69:63:51:F3:6B:B3:81:A3:DD:8C:90:56:C3:0A:4E:2D:25:AA:E0:A9:83:93:21:4E"
+      ]
+    }
+  }
+]

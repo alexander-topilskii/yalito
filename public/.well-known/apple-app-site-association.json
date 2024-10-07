@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.cy.development.software.fancy.wishlist",
+        "paths": [ "/app/*" ]
+      }
+    ]
+  }
+}
