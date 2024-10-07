@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "TEAMID.cy.development.software.fancy.wishlist",
+        "appID": "Wishlist.cy.development.software.fancy.wishlist",
         "paths": [ "/app/*" ]
       }
     ]
