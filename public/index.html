@@ -119,15 +119,15 @@
       document.addEventListener("DOMContentLoaded", function() {
         const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-        if (isMobile) {
-          const appLink = "wishlist://yalito.me/app/"; // Ссылка для открытия приложения
-          const fallbackStoreLink = navigator.userAgent.includes("Android") ?
-            "market://details?id=cy.development.software.fancy.wishlist" :
-            "itms-apps://apps.apple.com/us/app/yalito-wishlist/id6727014821";
-
-          setTimeout(function() {
-            window.location.href = fallbackStoreLink;
-          }, 1000); // Ждём 2 секунды перед перенаправлением в магазин
+       // if (isMobile) {
+       //   const appLink = "wishlist://yalito.me/app/"; // Ссылка для открытия приложения
+       //   const fallbackStoreLink = navigator.userAgent.includes("Android") ?
+       //     "market://details?id=cy.development.software.fancy.wishlist" :
+       //     "itms-apps://apps.apple.com/us/app/yalito-wishlist/id6727014821";
+//
+       //   setTimeout(function() {
+       //     window.location.href = fallbackStoreLink;
+       //   }, 1000); // Ждём 2 секунды перед перенаправлением в магазин
 
           // Попытка открытия приложения
           // window.location.href = appLink;
