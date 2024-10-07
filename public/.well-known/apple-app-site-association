@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "D9K62V7V2N.cy.development.software.fancy.wishlist.Wishlist",
+        "appID": "D9K62V7V2N.cy.development.software.fancy.wishlist",
         "paths": [ "/app/*" ]
       }
     ]
