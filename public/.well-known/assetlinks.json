@@ -1,25 +1,25 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "cy.development.software.fancy.wishlist",
       "sha256_cert_fingerprints": [
-        "29:14:AB:23:26:14:5D:94:26:31:C2:23:0C:EC:FF:0B:0C:E8:58:1C:28:02:B5:BB:5F:40:B9:37:6F:C4:40:57",
-        "90:F4:3B:46:9D:AB:D6:2D:69:63:51:F3:6B:B3:81:A3:DD:8C:90:56:C3:0A:4E:2D:25:AA:E0:A9:83:93:21:4E",
-        "18:BD:8B:FD:A4:E0:68:B1:58:40:5F:50:C7:61:CE:7B:50:5A:26:F8:55:3F:9C:AD:86:5B:FF:18:8A:3B:4C:D2"
+        "30:CD:A1:F3:9E:45:89:23:5F:BA:F7:E1:38:35:66:43:0F:57:A1:55:29:43:42:2E:75:31:C8:1D:7C:64:45:DD"
       ]
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "cy.development.software.fancy.wishlist.staging",
       "sha256_cert_fingerprints": [
-        "29:14:AB:23:26:14:5D:94:26:31:C2:23:0C:EC:FF:0B:0C:E8:58:1C:28:02:B5:BB:5F:40:B9:37:6F:C4:40:57",
-        "90:F4:3B:46:9D:AB:D6:2D:69:63:51:F3:6B:B3:81:A3:DD:8C:90:56:C3:0A:4E:2D:25:AA:E0:A9:83:93:21:4E",
-        "18:BD:8B:FD:A4:E0:68:B1:58:40:5F:50:C7:61:CE:7B:50:5A:26:F8:55:3F:9C:AD:86:5B:FF:18:8A:3B:4C:D2"
+        "29:14:AB:23:26:14:5D:94:26:31:C2:23:0C:EC:FF:0B:0C:E8:58:1C:28:02:B5:BB:5F:40:B9:37:6F:C4:40:57"
       ]
     }
   }
